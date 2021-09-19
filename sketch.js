@@ -1,9 +1,9 @@
 
 points = []
 
-
-
-
+function comparePoints(a,b) {
+  return (a.y > b.y) || (a.y == b.y && a.x > b.x);
+}
 
 function setup() {
   createCanvas(600, 400);
@@ -19,5 +19,7 @@ function draw() {
   for (let p of points){
     point(p.x, p.y)
   }
+
+
 
 }

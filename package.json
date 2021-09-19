@@ -1,0 +1,22 @@
+{
+  "name": "compgeo_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottmackinlay/compgeo_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottmackinlay/compgeo_js/issues"
+  },
+  "homepage": "https://github.com/scottmackinlay/compgeo_js#readme",
+  "devDependencies": {
+    "jest": "^27.2.0"
+  }
+}
